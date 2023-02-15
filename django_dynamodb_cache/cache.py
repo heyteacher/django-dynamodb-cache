@@ -290,4 +290,4 @@ class Cache(BaseCache):
 
     def close(self, **kwargs):
         """Close the cache connection"""
-        logger.info("Close connection with %s table", self.table.table_name)
+        logger.debug("Close connection with %s table", self.table.table_name)
